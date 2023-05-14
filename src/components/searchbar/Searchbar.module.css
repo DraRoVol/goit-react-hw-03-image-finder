@@ -43,8 +43,6 @@
 }
 .button-label {
     position: absolute;
-    width: 2px;
-    height: 2px;
     padding: 0;
     overflow: hidden;
     clip: rect(0, 0, 0, 0);

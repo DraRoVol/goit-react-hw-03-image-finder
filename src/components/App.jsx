@@ -1,8 +1,8 @@
 import { Component } from 'react';
+import { getSearchNews } from '../api/getSearchNews';
 import Searchbar from './searchbar/Searchbar';
 import ImageGallery from './imageGallery/ImageGallery';
 import Button from './button/Button';
-import { getSearchNews } from '../api/getSearchNews';
 import Loader from './loader/Loader';
 import Modal from './modal/Modal';
 

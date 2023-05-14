@@ -1,6 +1,7 @@
 import { Component } from 'react';
 import ImageGalleryItem from '../imageGalleryItem/ImageGalleryItem';
 import cssModule from './ImageGallery.module.css';
+import PropTypes from 'prop-types';
 
 class ImageGallery extends Component {
   handleClick = (selectedImage) => {
@@ -16,5 +17,8 @@ class ImageGallery extends Component {
       );
   }
 }
-
+ImageGallery.protoType = {
+  hits: PropTypes.node.isRequired,
+  openModal: PropTypes.func.isRequired,
+}
 export default ImageGallery;

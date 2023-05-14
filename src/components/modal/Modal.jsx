@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import cssModule from './Modal.module.css';
+import PropTypes from 'prop-types';
 
 class Modal extends Component {
   handleImageClick = e => {
@@ -28,5 +29,8 @@ class Modal extends Component {
     );
   }
 }
-
+Modal.protoType = {
+  selectedImage: PropTypes.node.isRequired,
+  onCloseModal: PropTypes.func.isRequired,
+}
 export default Modal;
