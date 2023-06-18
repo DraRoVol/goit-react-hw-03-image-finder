@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const Button = ({ onClick }) => {
   return (
     <button type="button" className={cssModule.button} onClick={onClick}>
-      Load more
+      Петя Hi)
     </button>
   );
 };
